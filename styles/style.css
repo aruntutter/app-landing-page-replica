@@ -57,6 +57,8 @@ nav a {
 
 .btn-download {
   border-radius: 6px;
+  cursor: pointer;
+  z-index: 1;
 }
 
 .btn-download button {

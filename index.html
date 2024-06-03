@@ -8,6 +8,9 @@
 
   <link rel="shortcut icon" href="./assets/images/Fav-icon.png" type="image/x-icon" />
 
+  <!-- LOCOMOTIVE SCROLL CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+
   <title>App Landing Page</title>
 
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -22,7 +25,7 @@
 </head>
 
 <body>
-  <div class="app-landing-page-wrapper">
+  <div class="app-landing-page-wrapper" id="main">
     <!-- HERO -->
     <div class="app-landing-page">
       <!-- NAVBAR -->
@@ -84,11 +87,11 @@
 
     <!-- FEATURES -->
     <div class="features-wrapper">
-      <div class="features-img">
+      <div class="features-img" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
         <img src="./assets/images/img-features.png" alt="features-img">
       </div>
 
-      <div class="features-details">
+      <div class="features-details" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
         <p>FEATURES</p>
         <h2>UiFry Premium</h2>
 
@@ -131,7 +134,7 @@
 
     <!-- ADVANTAGES -->
     <div class="advantages-wrapper">
-      <div class="advantages-details">
+      <div class="advantages-details" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2">
         <p>ADVANTAGES</p>
         <h2>Why Choose Uifry?</h2>
         <div class="clever-notification">
@@ -146,15 +149,16 @@
             Eget Ac Dolor Neque Lorem Sapien, Suspendisse Aliquam.</p>
         </div>
       </div>
-      <div class="advantages-img">
+      <div class="advantages-img" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
         <img src="./assets/images/img-advantages.png" alt="advantages-img">
       </div>
     </div>
 
     <!-- CUSTOMIZABLE -->
     <div class="customizable-wrapper">
-      <div class="customizable-img"><img src="./assets/images/img-customizable.png" alt="img-customizable"></div>
-      <div class="customizable-details">
+      <div class="customizable-img" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-2"><img
+          src="./assets/images/img-customizable.png" alt="img-customizable"></div>
+      <div class="customizable-details" data-scroll data-scroll-direction="horizontal" data-scroll-speed="2">
         <div class="fully-customizable">
           <div class="customizable-title">
             <span><img src="./assets/images/star-icon.png" alt="start-img"></span><span>Fully Customizable</span>
@@ -176,7 +180,7 @@
       </div>
 
       <div class="testimonial-img-details">
-        <div class="testimonial-img">
+        <div class="testimonial-img" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-1">
           <img src="./assets/images/testimonial-group-img.png" alt="testimonial-group-img">
         </div>
         <div class="testimonial-details">
@@ -214,14 +218,14 @@
         </div>
 
         <!-- FAQ two -->
-        <div class="faq faq-two">
+        <div class="faq faq-two" data-scroll data-scroll-direction="horizontal" data-scroll-speed="0.7">
           <h3>The Best Financial Accounting App Ever!</h3>
           <p>"Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In Ultrices Malesuada Elit Mauris."
           </p>
         </div>
 
         <!-- FAQ three -->
-        <div class="faq faq-three">
+        <div class="faq faq-three" data-scroll data-scroll-direction="horizontal" data-scroll-speed="-0.7">
           <h3>The Best Financial Accounting App Ever!</h3>
           <p>"Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In Ultrices Malesuada Elit Mauris."
           </p>
@@ -242,7 +246,7 @@
         </div>
 
         <!-- FAQ six -->
-        <div class="faq faq-six">
+        <div class="faq faq-six" data-scroll data-scroll-direction="horizontal" data-scroll-speed="0.7">
           <h3>The Best Financial Accounting App Ever!</h3>
           <p>"Arcu At Dictum Sapien, Mollis. Vulputate Sit Id Accumsan, Ultricies. In Ultrices Malesuada Elit Mauris."
           </p>
@@ -317,6 +321,11 @@
       <p>Copyright 2022 Uifry.Com All Rights Reserved</p>
     </footer>
   </div>
+
+  <!-- LOCOMOTIVE SCROLL CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+
+  <script src="./script.js"></script>
 </body>
 
 </html>
