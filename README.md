@@ -16,7 +16,7 @@ This project is a responsive landing page for a mobile application, designed usi
 
 ## Demo
 
-You can view the live project deployed on Vercel [here]().
+You can view the live project deployed on Vercel [here](https://app-landing-page-replica.netlify.app/).
 
 ## Features
 
@@ -47,6 +47,7 @@ To run this project locally, follow these steps:
    ```
 
 2. Navigate to the project directory:
+
    ```cd your-repo
 
    ```
@@ -55,11 +56,11 @@ To run this project locally, follow these steps:
 
 Open the index.html file in your browser to view the landing page.
 Design Reference
-The design of this landing page is based on a Figma reference. You can view the Figma design [here](Figma Link) and the developer mode details [here](Figma Dev Mode Link).
+The design of this landing page is based on a Figma reference. You can view the Figma design [here](https://www.figma.com/community/file/1145991068621514311) and the developer mode details [here](<https://www.figma.com/design/dvc71PcUEYRKrtnZOapRtI/App-Landing-Page-Finance-Bank-Money-(Community)?node-id=0-1&m=dev>).
 
 ## Contact
 
-If you have any questions or suggestions, feel free to contact me at your-email@example.com.
+If you have any questions or suggestions, feel free to contact me at reachout.arunkumar.r@gmail.com.
 
 ## Credits
 
