@@ -273,3 +273,54 @@ nav a {
     left: 20%;
   }
 }
+
+@media (max-width: 426px) {
+
+  .head-section {
+    padding: 0 5px;
+    text-align: center;
+  }
+
+  .head-one {
+    width: 100%;
+    margin-top: 2rem;
+    padding-left: 0
+  }
+
+  .head-one h1 {
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .head-one p {
+    font-size: 12px;
+  }
+
+  .get-watch-btn {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+  .get-btn {
+    width: 140px;
+    height: 50px;
+    font-size: 14px;
+    gap: 7px;
+  }
+
+  .get-btn span img {
+    width: 25px;
+  }
+
+  .watch-btn {
+    width: 140px;
+    font-size: 14px;
+    gap: 8px;
+  }
+
+  .watch-btn span img {
+    width: 26px;
+    cursor: pointer;
+  }
+}
