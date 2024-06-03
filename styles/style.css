@@ -469,6 +469,103 @@ nav a {
   font-weight: 500;
 }
 
+/* TESTIMONIAL */
+.testimonial {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  margin: 1rem auto;
+}
+
+.testimonial-title {
+  text-align: center;
+}
+
+.testimonial-title p {
+  letter-spacing: 5px;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.testimonial-title h2 {
+  width: 400px;
+  font-size: 3rem;
+  font-weight: 800;
+}
+
+.testimonial-img-details {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  padding: 1rem 4rem;
+}
+
+.testimonial-details {
+  width: 40%;
+  margin-top: 2rem;
+}
+
+.testimonial-details h3 {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.testimonial-details p {
+  line-height: 1.8rem;
+  width: 100%;
+  color: #908f8f;
+  font-weight: 500;
+  padding: 1.5rem 0;
+}
+
+.testimonial-img {
+  width: 50%;
+}
+
+.testimonial-img img {
+  width: 100%;
+}
+
+.testimonial-users-img .user-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+
+.testimonial-users-img .user-list .user-one {
+  width: 40px;
+}
+
+.testimonial-users-img .user-list .user-img {
+  width: 30px;
+}
+
+.user-img {
+  position: relative;
+}
+
+.user-img::before {
+  content: '';
+  position: absolute;
+  top: 1%;
+  left: 0;
+  right: 0;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  background: rgba(255, 255, 255, 0.492);
+  box-shadow: 0 -10px 10px rgba(255, 255, 255, 0.201);
+}
+
+.nick-jonas {
+  margin-top: 1rem;
+  font-size: 17px;
+  font-weight: 700;
+}
+
 @media (max-width: 865px) {
 
   .features-details,
@@ -536,6 +633,37 @@ nav a {
 
   .fully-customizable p {
     font-size: 14px;
+  }
+
+  /* TESTIMONIAL */
+  .testimonial {
+    margin: 2rem auto;
+  }
+
+  .testimonial-title {
+    margin-top: 2rem;
+  }
+
+  .testimonial-title p {
+    font-size: 16px;
+  }
+
+  .testimonial-title h2 {
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 700;
+  }
+
+  .testimonial-img-details {
+    padding: 1rem 1rem;
+  }
+
+  .testimonial-img {
+    width: 100%;
+  }
+
+  .testimonial-details {
+    width: 100%;
   }
 }
 
@@ -620,5 +748,18 @@ nav a {
   .fully-customizable p {
     font-size: 14px;
     line-height: 1.4rem;
+  }
+
+  /* TESTIMONIAL */
+  .testimonial-img-details {
+    flex-direction: column;
+  }
+
+  .testimonial-details {
+    text-align: center;
+  }
+
+  .testimonial-users-img .user-list {
+    justify-content: center;
   }
 }
