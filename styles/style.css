@@ -631,6 +631,19 @@ nav a {
   padding: 1rem 0;
 }
 
+/* APP */
+.app-warpper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 4rem auto;
+}
+
+.app-warpper img {
+  width: 70%;
+  padding-left: 0.5rem;
+}
+
 @media (max-width: 865px) {
 
   .features-details,
@@ -756,6 +769,16 @@ nav a {
     line-height: 1.8rem;
     font-size: 14px;
     font-weight: 400;
+  }
+
+  /* APP */
+  .app-warpper {
+    margin: 2rem auto;
+  }
+
+  .app-warpper img {
+    width: 100%;
+    padding-left: 5px;
   }
 }
 
